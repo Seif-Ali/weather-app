@@ -19,7 +19,7 @@ const temp5 = document.getElementById('temp-5')
 const state3 = document.getElementById('state-3')
 
 
-form.addEventListener('submit',(e)=>{
+form.addEventListener('input',(e)=>{
 e.preventDefault()
 dataInp(search.value)
 
